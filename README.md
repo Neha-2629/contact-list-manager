@@ -34,8 +34,8 @@ Ensure you have the following installed on your system:
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
-   cd backend
+   git clone https://github.com/Neha-2629/contact-list-manager
+   cd contact-list-manager/backend
    ```
 
 2. Install dependencies:
@@ -58,19 +58,13 @@ Ensure you have the following installed on your system:
      PORT=5000
      ```
 
-4. Run database migrations (if any):
+4. Start the server:
 
    ```bash
-   npm run migrate
+   npm run dev
    ```
 
-5. Start the server:
-
-   ```bash
-   npm start
-   ```
-
-6. The server will run on `http://localhost:5000` by default.
+5. The server will run on `http://localhost:5000` by default.
 
 ---
 
@@ -203,12 +197,6 @@ backend/
   ```bash
   npm run dev
   ```
-
-- **Lint the code:**
-
-  ```bash
-  npm run lint
-  ```
   
 ---
 
@@ -241,10 +229,9 @@ This is the frontend application for the Contact Manager, a simple tool to manag
 
 ## 💪 Installation & Setup
 
-1. **Clone the Repository**:
+1. **Move to Frontend Repository**:
    ```bash
-   git clone <repository_url>
-   cd contact-manager-frontend
+   cd contact-list-manager/frontend
    ```
 
 2. **Install Dependencies**:
@@ -253,22 +240,16 @@ This is the frontend application for the Contact Manager, a simple tool to manag
    npm install
    ```
 
-3. **Environment Variables**:
-   Create a `.env` file in the project root with the following:
-   ```
-   REACT_APP_API_URL=http://localhost:5000/api
-   ```
-
-4. **Run the Application**:
+3. **Run the Application**:
    Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
 
-5. **Access the Application**:
+4. **Access the Application**:
    Open your browser and go to:
    ```
-   http://localhost:3000
+   http://localhost:5173
    ```
 
 ---
@@ -282,8 +263,6 @@ src/
 │   ├── ContactList.tsx
 │   ├── DeleteConfirmationModal.tsx
 │   ├── EditContactModal.tsx
-├── hooks/              # Custom React hooks
-│   └── useDebounce.tsx
 ├── services/           # API service methods
 │   └── apiService.ts
 ├── types/              # TypeScript type definitions
