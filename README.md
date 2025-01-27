@@ -213,7 +213,6 @@ This is the frontend application for the Contact Manager, a simple tool to manag
 - **Add Contacts**: Add new contacts via a modal form.
 - **Edit Contacts**: Modify existing contacts using an edit modal.
 - **Delete Contacts**: Remove contacts with confirmation pop-ups.
-- **Debounced Search**: Efficient search with reduced API calls.
 
 ---
 
@@ -278,7 +277,7 @@ src/
 
 ### Searching
 - Type a name or email in the search bar.
-- Contacts will be filtered in real-time based on the input.
+- Contacts will be filtered in real time based on the input.
 
 ### Adding a Contact
 - Click the `+ Add User` button.
